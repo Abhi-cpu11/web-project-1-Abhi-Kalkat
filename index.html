@@ -9,13 +9,20 @@ School: Pembina Trails Collegiate (PTC)
 
 Date Last Modified:
     -->
+<!-- Declares the document type and version of HTML -->
 <!DOCTYPE html>
+<!--Lang declares the language-->
 <html lang="en">
+  <!--Head contains metadata about the document-->
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Title is the title of the document -->
     <title>Clutch Report</title>
+    <!--Closing tag for <head>-->
   </head>
+  <!--Ishaan helped me with the NAV bar and the CSS involvement. -->
+  <!--allows you to define styles (e.g., colors, fonts, layouts) for the elements on your webpage.-->
   <style>
     .w {
       padding: 10px;
@@ -34,9 +41,8 @@ Date Last Modified:
       font-size: 50px; /* Bigger text */
       font-weight: bold; /* Make text bold */
       text-decoration: none; /* Removes underline */
-      color: white; /* White text */
+      color: rgb(252, 129, 7); /* White text */
     }
-
     .w a:hover {
       background-color: gray;
     }
@@ -84,14 +90,21 @@ Date Last Modified:
       background-color: rgb(224, 30, 30); /* Red */
     }
   </style>
-
+  <!-- defines the main content of a web page.-->
   <body>
+<!-- The <header> tag represents the introductory or navigational section of a webpage. -->
+    <header>
+      <!-- The <nav> tag defines a section of navigation links, such as menus or a table of contents. -->
     <nav>
+      <!--Unorder list-->
       <ul class="w">
+        <!--Represents a list item-->
+        <!--<a> creating a hyperlink to other webpages one bing Home and other being warriors page.-->
         <li style="display: inline"><a href="Index.html">Home</a></li>
         <li style="display: inline"><a href="warriors-season.html">Warriors Page</a></li>
       </ul>
     </nav>
+    </header>
     <style>
       table,
       th,
@@ -100,8 +113,24 @@ Date Last Modified:
         border-collapse: collapse;
       }
     </style>
+    <!-- The <section> tag defines a thematic grouping of content on a webpage. -->
+    <section>
+      <!--H1 is the largest head-->
+    <h1>How the Cavs Defied the Odds with a Historic 3-1 Comeback</h1>
+    <!-- The <article> tag defines a self-contained piece of content that can be independently distributed or reused. -->
+    <article>
+      <!--Parragraph Tag.-->
+    <p>The most <b>memorable moment</b> in NBA history came in the famous comeback by the <b>Cleveland Cavaliers</b> in the <i>2016 NBA Finals</i> against the <i>Golden State Warriors</i>. The finals began on <b>June 2, 2016</b>. After trailing <b>3-1</b> in the series, the Cavaliers, with <b>LeBron James</b> and <b>Kyrie Irving</b>, won three in a row, setting them up to win their first NBA championship as a franchise. This was <i>historic</i> because <i>no team had ever come back from a <u>3-1 deficit</u> in the Finals before</i>. The series had it all <b>intensity, drama, and unforgettable performances</b>. LeBron James went on consecutive <b>41-point games</b> in Games 5 and 6. LeBron's <i>symbolic block</i> off the backboard was a defining moment. Kyrie Irving made one of the most <i>clutch plays in NBA history</i> a sidestep <b>three-pointer</b> over Stephen Curry (in his <i>grill</i>), sealing <i>Game 7</i>. The <i>Warriors</i>, who had set an <b>NBA record</b> with <u>73 regular-season wins</u>, saw their <u>historic season</u> end in <del>heartbreak</del>.</p>
+    </article>
+    </section>
+
+    <section>
+    <h2>2016 NBA Finals Recap</h2>
+    <!-- The <table> tag defines a table for organizing data into rows and columns. -->
     <table>
+      <!-- Table row creating sections.-->
       <tr>
+        <!--Table header what we are talking about.-->
         <th>Game</th>
         <th>Date</th>
         <th>Score</th>
@@ -109,6 +138,7 @@ Date Last Modified:
         <th>Key Moment/Player Performance</th>
       </tr>
       <tr>
+        <!--Table data the juicy info.-->
         <td>Game 1</td>
         <td>June 2, 2016</td>
         <td>Warriors 104, Cavs 89</td>
@@ -158,21 +188,38 @@ Date Last Modified:
         <td>LeBron's block and Kyrie's game-winning 3 for the win.</td>
       </tr>
     </table>
-    <h1>How the Cavs Defied the Odds with a Historic 3-1 Comeback</h1>
-    <p>The most <b>memorable moment</b> in NBA history came in the famous comeback by the <b>Cleveland Cavaliers</b> in the <i>2016 NBA Finals</i> against the <i>Golden State Warriors</i>. The finals began on <b>June 2, 2016</b>. After trailing <b>3-1</b> in the series, the Cavaliers, with <b>LeBron James</b> and <b>Kyrie Irving</b>, won three in a row, setting them up to win their first NBA championship as a franchise. This was <i>historic</i> because <i>no team had ever come back from a <u>3-1 deficit</u> in the Finals before</i>. The series had it all <b>intensity, drama, and unforgettable performances</b>. LeBron James went on consecutive <b>41-point games</b> in Games 5 and 6. LeBron's <i>symbolic block</i> off the backboard was a defining moment. Kyrie Irving made one of the most <i>clutch plays in NBA history</i> a sidestep <b>three-pointer</b> over Stephen Curry (in his <i>grill</i>), sealing <i>Game 7</i>. The <i>Warriors</i>, who had set an <b>NBA record</b> with <u>73 regular-season wins</u>, saw their <u>historic season</u> end in <del>heartbreak</del>.</p>
-<h3>Nutshell of the 2016 Finals</h3>
+    </section>
+
+    <section>
+<h3>A Video Explaining The Finals Indepth</h3>
 <!--NBA didn't allow me to use their videos-->
-<iframe width="560" height="400" src="https://www.youtube.com/embed/ev-Udsu7rYM?si=lIP2Y1SKbij-rBN7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="border:1px solid black;"></iframe>
+<!--Embedds a website or in this case a yt video into your webpage-->
+<iframe width="560" height="400" src="https://www.youtube.com/embed/ev-Udsu7rYM?si=lIP2Y1SKbij-rBN7" title="YouTube video player" frameborder="0" allowfullscreen style="border:1px solid black;"></iframe>
+</section>
+
+<section>
+  <!-- Forms are used to collect data from users and send it to a server for processing. -->
 <form>
+  <!-- The <label> tag defines a label for an input element. -->
+    <!-- The "for" attribute associates the label with the input element using its "id". -->
 <label for="Final"> After Watching, Is this the best finals? (1-10):</label>
+<!-- The <input> tag defines an input field where users can enter data. -->
+    <!-- The "type" attribute specifies the type of input (in this case, a range slider). -->
+    <!-- The "id" attribute uniquely identifies this input element. -->
+    <!-- The "name" attribute specifies the name of the input, which is used when submitting the form. -->
+    <!-- The "min" and "max" attributes define the range of values (1 to 10). -->
 <input type="range" id="Final" name="rating" min="1" max="10">
+<!---Creates a submit button for users to submit teir input-->
 <input type="submit" value="submit">
+<!--Line break-->
 </br>
 </br>
 </br>
+<!-- Creates a image-->
   <img src="The block.jpg" alt="Blocked by James. Lebron chase down block on Andre Iguodala">
   </br>
   <label for="Block">Was this the greatest block in NBA history</label>
+  <!--This time a different input a textbox-->
   <input type="checkbox" id="Block">
   <input type="submit" value="submit">
 </br>
@@ -189,13 +236,21 @@ Date Last Modified:
 <img src="The dab up.jpg" alt="Steph Curry and Andrew Bogut dabbing up after a play">
 </br>
   <label for="Curry">Select the jersey color Curry is wearing</label>
+  <!--This time the input is color-->
   <input type="color" id="Curry" name="Curry" value="#ff0000">
   <input type="submit" value="submit">
 </form>
+</section>
+
+<section>
 <h2>Talk Ball With Us</h2>
+<!-- The <fieldset> tag groups related elements in a form and draws a box around them. -->
 <fieldset>
+  <!-- The "action" attribute specifies where the form data will be sent when submitted. -->
+    <!-- The "method" attribute specifies the HTTP method to use when sending form data (POST in this case). -->
 <form action="/contact" method="post">
   <label for="email">Email:</label><br>
+    <!-- The "value" attribute provides a placeholder or example value for the input field. -->
   <input type="text" id="email" name="email" value="Ex: abhigoated@hotmail.com"><br>
 
   <label for="Tel">Phone Number:</label><br>
@@ -205,7 +260,9 @@ Date Last Modified:
   <input type="text" id="Fname" name="Fname" value="Ex: John"><br>
 
   <input type="submit" value="Submit">
+  <!--Just the closing tags fr.-->
 </fieldset>
+</section>
 </form>
 </body>
 </html>
