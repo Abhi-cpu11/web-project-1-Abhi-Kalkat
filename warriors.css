@@ -1,0 +1,71 @@
+/* Clutch Report - Warriors page styles */
+
+.w {
+      padding: 10px;
+      margin: 0;
+      list-style: none;
+      display: inline-block;
+      background-color: black;
+      border: 3px solid black;
+    }
+
+    .w li {
+      display: inline;
+      margin-right: 40px;
+    }
+    .w li a {
+      font-size: 50px; /* Bigger text */
+      font-weight: bold; /* Make text bold */
+      text-decoration: none; /* Removes underline */
+      color: rgb(26, 88, 188); /* White text */
+    }
+    .w a:hover {
+      background-color: gray;
+    }
+    .w {
+      width: 100%;
+      background-color: black;
+    }
+
+table,
+    th,
+    td {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+
+.notnav {
+      padding: 10px;
+      margin: 0;
+      list-style: none;
+      display: inline-block;
+    }
+
+    .notnav li {
+      display: inline;
+      margin-right: 40px;
+    }
+    .notnav li a {
+      font-size: 30px; /* Bigger text */
+      font-weight: bold; /* Make text bold */
+      text-decoration: none; /* Removes underline */
+      color: rgb(255, 255, 255); /* White text */
+    }
+    .notnav a:hover {
+      background-color: gray;
+    }
+
+    .notnav {
+      width: 100%;
+    }
+
+body {
+      background-color: rgb(224, 217, 12); /* Red */
+    }
+
+table,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
